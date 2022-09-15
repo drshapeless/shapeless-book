@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85EE15D828D3735F0005B74A /* shapeless_bookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE15D728D3735F0005B74A /* shapeless_bookApp.swift */; };
+		85EE15DA28D3735F0005B74A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE15D928D3735F0005B74A /* Persistence.swift */; };
+		85EE15DD28D3735F0005B74A /* shapeless_book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 85EE15DB28D3735F0005B74A /* shapeless_book.xcdatamodeld */; };
+		85EE15DF28D3735F0005B74A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE15DE28D3735F0005B74A /* ContentView.swift */; };
+		85EE15E128D373600005B74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EE15E028D373600005B74A /* Assets.xcassets */; };
+		85EE15E528D373600005B74A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85EE15E428D373600005B74A /* Preview Assets.xcassets */; };
+		85EE15EF28D373600005B74A /* shapeless_bookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE15EE28D373600005B74A /* shapeless_bookTests.swift */; };
+		85EE15F928D373600005B74A /* shapeless_bookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE15F828D373600005B74A /* shapeless_bookUITests.swift */; };
+		85EE15FB28D373600005B74A /* shapeless_bookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EE15FA28D373600005B74A /* shapeless_bookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85EE15EB28D373600005B74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EE15CC28D3735F0005B74A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85EE15D328D3735F0005B74A;
+			remoteInfo = "shapeless-book";
+		};
+		85EE15F528D373600005B74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85EE15CC28D3735F0005B74A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85EE15D328D3735F0005B74A;
+			remoteInfo = "shapeless-book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85EE15D428D3735F0005B74A /* shapeless-book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shapeless-book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EE15D728D3735F0005B74A /* shapeless_bookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeless_bookApp.swift; sourceTree = "<group>"; };
+		85EE15D928D3735F0005B74A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		85EE15DC28D3735F0005B74A /* shapeless_book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shapeless_book.xcdatamodel; sourceTree = "<group>"; };
+		85EE15DE28D3735F0005B74A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		85EE15E028D373600005B74A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85EE15E228D373600005B74A /* shapeless_book.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = shapeless_book.entitlements; sourceTree = "<group>"; };
+		85EE15E428D373600005B74A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85EE15EA28D373600005B74A /* shapeless-bookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shapeless-bookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EE15EE28D373600005B74A /* shapeless_bookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeless_bookTests.swift; sourceTree = "<group>"; };
+		85EE15F428D373600005B74A /* shapeless-bookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shapeless-bookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EE15F828D373600005B74A /* shapeless_bookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeless_bookUITests.swift; sourceTree = "<group>"; };
+		85EE15FA28D373600005B74A /* shapeless_bookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shapeless_bookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85EE15D128D3735F0005B74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE15E728D373600005B74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE15F128D373600005B74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85EE15CB28D3735F0005B74A = {
+			isa = PBXGroup;
+			children = (
+				85EE15D628D3735F0005B74A /* shapeless-book */,
+				85EE15ED28D373600005B74A /* shapeless-bookTests */,
+				85EE15F728D373600005B74A /* shapeless-bookUITests */,
+				85EE15D528D3735F0005B74A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85EE15D528D3735F0005B74A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85EE15D428D3735F0005B74A /* shapeless-book.app */,
+				85EE15EA28D373600005B74A /* shapeless-bookTests.xctest */,
+				85EE15F428D373600005B74A /* shapeless-bookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85EE15D628D3735F0005B74A /* shapeless-book */ = {
+			isa = PBXGroup;
+			children = (
+				85EE15D728D3735F0005B74A /* shapeless_bookApp.swift */,
+				85EE15D928D3735F0005B74A /* Persistence.swift */,
+				85EE15DE28D3735F0005B74A /* ContentView.swift */,
+				85EE15E028D373600005B74A /* Assets.xcassets */,
+				85EE15E228D373600005B74A /* shapeless_book.entitlements */,
+				85EE15DB28D3735F0005B74A /* shapeless_book.xcdatamodeld */,
+				85EE15E328D373600005B74A /* Preview Content */,
+			);
+			path = "shapeless-book";
+			sourceTree = "<group>";
+		};
+		85EE15E328D373600005B74A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				85EE15E428D373600005B74A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		85EE15ED28D373600005B74A /* shapeless-bookTests */ = {
+			isa = PBXGroup;
+			children = (
+				85EE15EE28D373600005B74A /* shapeless_bookTests.swift */,
+			);
+			path = "shapeless-bookTests";
+			sourceTree = "<group>";
+		};
+		85EE15F728D373600005B74A /* shapeless-bookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85EE15F828D373600005B74A /* shapeless_bookUITests.swift */,
+				85EE15FA28D373600005B74A /* shapeless_bookUITestsLaunchTests.swift */,
+			);
+			path = "shapeless-bookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85EE15D328D3735F0005B74A /* shapeless-book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EE15FE28D373600005B74A /* Build configuration list for PBXNativeTarget "shapeless-book" */;
+			buildPhases = (
+				85EE15D028D3735F0005B74A /* Sources */,
+				85EE15D128D3735F0005B74A /* Frameworks */,
+				85EE15D228D3735F0005B74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shapeless-book";
+			productName = "shapeless-book";
+			productReference = 85EE15D428D3735F0005B74A /* shapeless-book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85EE15E928D373600005B74A /* shapeless-bookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EE160128D373600005B74A /* Build configuration list for PBXNativeTarget "shapeless-bookTests" */;
+			buildPhases = (
+				85EE15E628D373600005B74A /* Sources */,
+				85EE15E728D373600005B74A /* Frameworks */,
+				85EE15E828D373600005B74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85EE15EC28D373600005B74A /* PBXTargetDependency */,
+			);
+			name = "shapeless-bookTests";
+			productName = "shapeless-bookTests";
+			productReference = 85EE15EA28D373600005B74A /* shapeless-bookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85EE15F328D373600005B74A /* shapeless-bookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EE160428D373600005B74A /* Build configuration list for PBXNativeTarget "shapeless-bookUITests" */;
+			buildPhases = (
+				85EE15F028D373600005B74A /* Sources */,
+				85EE15F128D373600005B74A /* Frameworks */,
+				85EE15F228D373600005B74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85EE15F628D373600005B74A /* PBXTargetDependency */,
+			);
+			name = "shapeless-bookUITests";
+			productName = "shapeless-bookUITests";
+			productReference = 85EE15F428D373600005B74A /* shapeless-bookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85EE15CC28D3735F0005B74A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					85EE15D328D3735F0005B74A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					85EE15E928D373600005B74A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 85EE15D328D3735F0005B74A;
+					};
+					85EE15F328D373600005B74A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 85EE15D328D3735F0005B74A;
+					};
+				};
+			};
+			buildConfigurationList = 85EE15CF28D3735F0005B74A /* Build configuration list for PBXProject "shapeless-book" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85EE15CB28D3735F0005B74A;
+			productRefGroup = 85EE15D528D3735F0005B74A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85EE15D328D3735F0005B74A /* shapeless-book */,
+				85EE15E928D373600005B74A /* shapeless-bookTests */,
+				85EE15F328D373600005B74A /* shapeless-bookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85EE15D228D3735F0005B74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EE15E528D373600005B74A /* Preview Assets.xcassets in Resources */,
+				85EE15E128D373600005B74A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE15E828D373600005B74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE15F228D373600005B74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85EE15D028D3735F0005B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EE15DD28D3735F0005B74A /* shapeless_book.xcdatamodeld in Sources */,
+				85EE15D828D3735F0005B74A /* shapeless_bookApp.swift in Sources */,
+				85EE15DF28D3735F0005B74A /* ContentView.swift in Sources */,
+				85EE15DA28D3735F0005B74A /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE15E628D373600005B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EE15EF28D373600005B74A /* shapeless_bookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85EE15F028D373600005B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EE15FB28D373600005B74A /* shapeless_bookUITestsLaunchTests.swift in Sources */,
+				85EE15F928D373600005B74A /* shapeless_bookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85EE15EC28D373600005B74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85EE15D328D3735F0005B74A /* shapeless-book */;
+			targetProxy = 85EE15EB28D373600005B74A /* PBXContainerItemProxy */;
+		};
+		85EE15F628D373600005B74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85EE15D328D3735F0005B74A /* shapeless-book */;
+			targetProxy = 85EE15F528D373600005B74A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85EE15FC28D373600005B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85EE15FD28D373600005B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		85EE15FF28D373600005B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "shapeless-book/shapeless_book.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shapeless-book/Preview Content\"";
+				DEVELOPMENT_TEAM = 2M3X4UWQ82;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drshapeless.shapeless-book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85EE160028D373600005B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "shapeless-book/shapeless_book.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shapeless-book/Preview Content\"";
+				DEVELOPMENT_TEAM = 2M3X4UWQ82;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drshapeless.shapeless-book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85EE160228D373600005B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M3X4UWQ82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drshapeless.shapeless-bookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shapeless-book.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shapeless-book";
+			};
+			name = Debug;
+		};
+		85EE160328D373600005B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M3X4UWQ82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drshapeless.shapeless-bookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shapeless-book.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shapeless-book";
+			};
+			name = Release;
+		};
+		85EE160528D373600005B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M3X4UWQ82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drshapeless.shapeless-bookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "shapeless-book";
+			};
+			name = Debug;
+		};
+		85EE160628D373600005B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M3X4UWQ82;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drshapeless.shapeless-bookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "shapeless-book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85EE15CF28D3735F0005B74A /* Build configuration list for PBXProject "shapeless-book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EE15FC28D373600005B74A /* Debug */,
+				85EE15FD28D373600005B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EE15FE28D373600005B74A /* Build configuration list for PBXNativeTarget "shapeless-book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EE15FF28D373600005B74A /* Debug */,
+				85EE160028D373600005B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EE160128D373600005B74A /* Build configuration list for PBXNativeTarget "shapeless-bookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EE160228D373600005B74A /* Debug */,
+				85EE160328D373600005B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EE160428D373600005B74A /* Build configuration list for PBXNativeTarget "shapeless-bookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EE160528D373600005B74A /* Debug */,
+				85EE160628D373600005B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		85EE15DB28D3735F0005B74A /* shapeless_book.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				85EE15DC28D3735F0005B74A /* shapeless_book.xcdatamodel */,
+			);
+			currentVersion = 85EE15DC28D3735F0005B74A /* shapeless_book.xcdatamodel */;
+			path = shapeless_book.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 85EE15CC28D3735F0005B74A /* Project object */;
+}
